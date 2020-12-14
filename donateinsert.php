@@ -15,19 +15,18 @@ if($link === false){
 
  
 // Attempt insert query execution
-$name1 = $_POST['signname'];
-$email1=$_POST['signmail'];
-$sql = "INSERT INTO signup (name,email) VALUES ('$name1','$email1')";
+$name = $_POST['name'];
+$email=$_POST['email'];
+$address=$_POST['address'];
+$phone=$_POST['phone'];
+$message=$_POST['message'];
+$sql = "INSERT INTO donateus(name,email,address,phone,message) VALUES ('$name','$email','$address','$phone','$message')";
 if(mysqli_query($link, $sql)){
-    echo "<center>thanks for subscribing.</center><br />";
+    echo "<center>Thanks for your help,Our team will reach you shortly.</center><br />";
     echo "<center><a href='index.html'>Go back to home</a></center>";
+
 } else{
-
-	echo"<center>The email already exists</center>";
-  echo "<center><a href='joinus.php'>Try again</a></center><br />";
-
-  echo "<center><a href='index.html'>Go back to home</a></center";
-
+   echo "<center><a href='detaildonor.php'>try again</a></center>";
 }
  
 // Close connection

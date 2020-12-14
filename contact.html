@@ -44,33 +44,33 @@
 
 <body>
     <nav class="navbar navbar-light navbar-expand-md fixed-top bg-light float-right" style="height: 110px;background-color: #1ad6ef;">
-        <div class="container-fluid"><a class="navbar-brand text-center jm-logo" href="#" style="background-image: url(&quot;assets/img/logo7_29_185350.png&quot;);padding: 10px;margin: -70px;height: 245px;background-size: contain;background-repeat: no-repeat;background-position: center;width: 295px;font-size: 38px;"></a>
+        <div class="container-fluid"><a class="navbar-brand text-center jm-logo" href="index.html" style="background-image: url(&quot;assets/img/logo7_29_185350.png&quot;);padding: 10px;margin: -70px;height: 245px;background-size: contain;background-repeat: no-repeat;background-position: center;width: 295px;font-size: 38px;"></a>
             <button
                 data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse text-secondary" id="navcol-1">
                     <ul class="nav navbar-nav mx-auto">
                         <li class="nav-item" role="presentation"><a class="nav-link active" href="aboutus.html" style="background-color: rgba(255,255,255,0.2);color: #000000;">About The Foundation</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link active" href="contact.html" style="background-color: rgba(255,255,255,0.2);color: #000000; ">Contact</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="background-color: rgba(255,255,255,0.2);color: #040404;">Gallery</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="index.html#gal" style="background-color: rgba(255,255,255,0.2);color: #040404;">Gallery</a></li>
                         <li class="nav-item" role="presentation"></li>
                     </ul>
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item" role="presentation"></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="width: 117px;height: 40px;color: #000000;"><i class="fas fa-sign-in-alt" style="width: 10px;height: 6px;margin: 6px;"></i>&nbsp;Join us</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="joinus.php" style="width: 117px;height: 40px;color: #000000;"><i class="fas fa-sign-in-alt" style="width: 10px;height: 6px;margin: 6px;"></i>&nbsp;Join us</a></li>
                     </ul>
                 </div>
         </div>
     </nav>
     <div class="row"></div>
-    <ol class="breadcrumb" style="margin: 114px;background-repeat: no-repeat;background-size: cover;background-color: #cccccc;padding: 13px;">
+    <ol class="breadcrumb" style="margin: 90px;background-repeat: no-repeat;background-size: cover;background-color: #cccccc;padding: 13px;">
         <li class="breadcrumb-item"><a href="index.html"><span>Home</span></a></li>
         <li class="breadcrumb-item"><a href="contact.html"><span>Contact</span></a></li>
     </ol>
     <div>
-        <div class="container-fluid" style="margin: 26px;padding: -15px;height: 619px;">
+        <div class="container-fluid" style="margin: 15px;padding: -15px;height: 619px;">
             <h1>Contact Information</h1>
             <hr>
-            <form id="contactForm" action="javascript:void(0);" method="get"><input class="form-control" type="hidden" name="Introduction" value="This email was sent from www.awebsite.com"><input class="form-control" type="hidden" name="subject" value="Awebsite.com Contact Form"><input class="form-control" type="hidden"
+            <form id="contactForm" action="contactinsert.php" onsubmit="alert('Thanks for Subscribing');" method="post"><input class="form-control" type="hidden" name="Introduction" value="This email was sent from www.awebsite.com"><input class="form-control" type="hidden" name="subject" value="Awebsite.com Contact Form"><input class="form-control" type="hidden"
                     name="to" value="email@awebsite.com">
                 <div class="form-row">
                     <div class="col-md-6">
@@ -83,17 +83,17 @@
                         </h2>
                         <div class="form-group"><label for="from-name">Name</label><span class="required-input">*</span>
                             <div class="input-group">
-                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-user-o"></i></span></div><input class="form-control" type="text" id="from-name" name="name" required="" placeholder="Full Name"></div>
+                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-user-o"></i></span></div><input class="form-control" type="text" id="fname" name="name" required="" placeholder="Full Name"></div>
                         </div>
                         <div class="form-group"><label for="from-email">Email</label><span class="required-input">*</span>
                             <div class="input-group">
-                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-envelope-o"></i></span></div><input class="form-control" type="text" id="from-email" name="email" required="" placeholder="Email Address"></div>
+                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-envelope-o"></i></span></div><input class="form-control" type="text" id="femail" name="email" required="" placeholder="Email Address"></div>
                         </div>
                         <div class="form-row">
                             <div class="col-12 col-sm-6 col-md-12 col-lg-6">
                                 <div class="form-group"><label for="from-phone">Phone</label><span class="required-input">*</span>
                                     <div class="input-group">
-                                        <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-phone"></i></span></div><input class="form-control" type="text" id="from-phone" name="phone" required="" placeholder="Primary Phone"></div>
+                                        <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-phone"></i></span></div><input class="form-control" type="text" id="fphone" name="phone" required="" placeholder="Primary Phone"></div>
                                 </div>
                             </div>
                             <div class="col-12 col-sm-6 col-md-12 col-lg-6">
@@ -103,7 +103,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group"><label for="from-comments">Comments</label><textarea class="form-control" id="from-comments" name="comments" placeholder="Enter Comments" rows="5"></textarea></div>
+                        <div class="form-group"><label for="from-comments">Comments</label><textarea class="form-control" id="fcomment" name="comments" placeholder="Enter Comments" rows="5"></textarea></div>
                         <div class="form-group">
                             <div class="form-row">
                                 <div class="col"><button class="btn btn-primary btn-block" type="reset"><i class="fa fa-undo"></i> Reset</button></div>
@@ -128,9 +128,9 @@
                             </div>
                             <div class="col-sm-6 col-md-12 col-lg-6">
                                 <h2 class="h4"><i class="fa fa-location-arrow"></i> Our Address</h2>
-                                <div><span><strong>Office Name</strong></span></div>
-                                <div><span>55 Icannot Dr</span></div>
-                                <div><span>Daytone Beach, FL 85150</span></div>
+                                <div><span><strong>Dangarum.inc</strong></span></div>
+                                <div><span>kalopul 5</span></div>
+                                <div><span>Kathmandu,Nepal</span></div>
                                 <div><abbr data-toggle="tooltip" data-placement="top" title="Office Phone: 555-867-5309">O:</abbr> 555-867-5309</div>
                                 <hr class="d-sm-none">
                             </div>

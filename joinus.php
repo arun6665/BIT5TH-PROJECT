@@ -1,7 +1,9 @@
+
 <!DOCTYPE html>
 <html>
 
 <head>
+    arun:
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>project1</title>
@@ -13,20 +15,10 @@
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="assets/css/Animate-Cards-Devices.css">
-    <link rel="stylesheet" href="assets/css/Animated-gradient-background-1.css">
-    <link rel="stylesheet" href="assets/css/Animated-gradient-background-2.css">
-    <link rel="stylesheet" href="assets/css/Animated-gradient-background.css">
-    <link rel="stylesheet" href="assets/css/Animated-Type-Heading.css">
-    <link rel="stylesheet" href="assets/css/Animation-Cards-1.css">
-    <link rel="stylesheet" href="assets/css/Animation-Cards.css">
-    <link rel="stylesheet" href="assets/css/Background-Image---Parallax---No-Text.css">
-    <link rel="stylesheet" href="assets/css/Basic-fancyBox-Gallery.css">
-    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+  
+   
     <link rel="stylesheet" href="assets/css/Contact-Form-v2-Modal--Full-with-Google-Map.css">
-    <link rel="stylesheet" href="assets/css/Contact-form.css">
-    <link rel="stylesheet" href="assets/css/dh-row-titile-text-image-right-1.css">
-    <link rel="stylesheet" href="assets/css/Feature-Section-MD.css">
+  
     <link rel="stylesheet" href="assets/css/Features.css">
     <link rel="stylesheet" href="assets/css/Footer-Clean.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -37,13 +29,9 @@
     <link rel="stylesheet" href="assets/css/Scroll-To-Top.css">
     <link rel="stylesheet" href="assets/css/slider-hover.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/WOWSlider-about-us-1.css">
-    <link rel="stylesheet" href="assets/css/WOWSlider-about-us-2.css">
-    <link rel="stylesheet" href="assets/css/WOWSlider-about-us.css">
-</head>
 
-<body>
-    <nav class="navbar navbar-light navbar-expand-md fixed-top bg-light float-right" style="height: 110px;background-color: #1ad6ef;">
+
+     <nav class="navbar navbar-light navbar-expand-md fixed-top bg-light float-right" style="height: 110px;background-color: #1ad6ef;">
         <div class="container-fluid"><a class="navbar-brand text-center jm-logo" href="index.html" style="background-image: url(&quot;assets/img/logo7_29_185350.png&quot;);padding: 10px;margin: -70px;height: 245px;background-size: contain;background-repeat: no-repeat;background-position: center;width: 295px;font-size: 38px;"></a>
             <button
                 data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
@@ -51,46 +39,55 @@
                     <ul class="nav navbar-nav mx-auto">
                         <li class="nav-item" role="presentation"><a class="nav-link active" href="aboutus.html" style="background-color: rgba(255,255,255,0.2);color: #000000;">About The Foundation</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html" style="background-color: rgba(255,255,255,0.2);color: #000000;">Contact</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="index.html#gal" style="background-color: rgba(255,255,255,0.2);color: #040404;">Gallery</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="#gal" style="background-color: rgba(255,255,255,0.2);color: #040404;">Gallery</a></li>
                         <li class="nav-item" role="presentation"></li>
                     </ul>
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item" role="presentation"></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="joinus.php" style="width: 117px;height: 40px;color: #000000;"><i class="fas fa-sign-in-alt" style="width: 10px;height: 6px;margin: 6px;"></i>&nbsp;Join us</a></li>
+                        <li class="nav-item" role="presentation data-target="modal" data-toggle="joinmdal"><a class="nav-link active" href="#" style="width: 117px;height: 40px;color: #000000;"><i class="fas fa-sign-in-alt" style="width: 10px;height: 6px;margin: 6px;"></i>&nbsp;Join us</a></li>
                     </ul>
                 </div>
         </div>
     </nav>
     
-   
-    <ol class="breadcrumb" style="margin: 90px;background-repeat: no-repeat;background-size: cover;background-color: #cccccc;padding: 13px;">
-        <li class="breadcrumb-item"><a href="index.html"><span>Home</span></a></li>
-        <li class="breadcrumb-item"><a href="contact.html"><span>Contact</span></a></li>
-    </ol>
- 
+</head>
 
-        <div class="row">
-            <div class="col">
-                <h1 class="text-danger text-center">About us</h1>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row padding-content">
-                <div class="col-md-4 no-padding">
-                   
-                </div>
-                <center>
-                <div class="col-md-8 abt-right">
-                    <h1 class="text-center">DANGARUM</h1>
-                    <p>Dangarum is a team of individulas aiming to work for a better world.Dangarum uses the donation to help and server the childrens of the rural areas of the country.We aim to bring people together and channel their energies to make a better world for the the children.<br />
-                    
-                 <center> We believe in power of collaboration to make impact</center></p><a class="navbar-brand text-center jm-logo" href="" style="background-image: url(&quot;assets/img/logo7_29_185350.png&quot;);padding: 10px;margin: -50px;height: 245px;background-size: contain;background-repeat: no-repeat;background-position: center;width: 295px;font-size: 38px;"></a></div>
-            </div>
-        </center>
-        </div>
-    </section>
+<body>
+<!-- Default form subscription -->
+<center>
+<form class="text-center border border-light  col-sm-4 align-center" action="signup.php" method="post">
+
+   
+
+    <p>Join our mailing list. We write rarely, but only the best content.</p>
+
+    <p>
+        <a href="" target="_blank"> Join us to See our newsletter</a>
+    </p>
+
+    <!-- Name -->
+    <input type="text" name="signname" class="form-control mb-4" placeholder="Name">
+
+    <!-- Email -->
+    <input type="email" name="signmail" class="form-control mb-4" placeholder="E-mail">
+
+    <!-- Sign in button -->
+    <button class="btn btn-info btn-block" type="submit" value="submit">Subscribe</button>
+
+
+</form>
+<!-- Default form subscription -->
+
+</center>
+
+
+
+
+
+
+
        <div class="footer-clean" style="height: 282px;">
-    <footer style="background-image: url(&quot;assets/img/dangg.png&quot;);background-repeat: no-repeat;background-size: cover;padding: 78px;height: 230px;margin: 0px;">
+    <footer style="background-image: url(&quot;assets/img/dangg.png&quot;);background-repeat: no-repeat;background-size: cover;padding: 70px;height: 230px;margin: 6px; width: 1400px;">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-4 col-md-3 item">
@@ -114,22 +111,39 @@
                 </div>
             </div>
         </div>
-
     </footer>
 </div>
+
+   
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="assets/js/Animatecss--Wowjs.js"></script>
-    <script src="assets/js/Basic-fancyBox-Gallery.js"></script>
+   
     <script src="assets/js/Animated-gradient-background.js"></script>
     <script src="assets/js/Animated-Type-Heading.js"></script>
     <script src="assets/js/Contact-Form-v2-Modal--Full-with-Google-Map.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.js"></script>
-    <script src="assets/js/slider-hover.js"></script>
-    <script src="assets/js/WOWSlider-about-us.js"></script>
+  
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="height: 706px;margin: 93px;padding: 49px;width: 1178px;">
+<html>
 
 <head>
     
@@ -51,10 +51,11 @@
 
 <body>
      
-    <ol class="breadcrumb" style="margin: 114px;background-repeat: no-repeat;background-size: cover;background-color: #cccccc;padding: 13px;">
+    <ol class="breadcrumb" style="margin: 90px;background-repeat: no-repeat;background-size: cover;background-color: #cccccc;padding: 13px;">
         <li class="breadcrumb-item"><a href="index.html"><span>Home</span></a></li>
         <li class="breadcrumb-item"><a href="donate.php"><span>Donate Now</span></a></li>
     </ol>
+    <center>
    
     <div class="row">
         <div class="col-sm-4 col-md-4">
@@ -91,10 +92,11 @@
             </div>
         </div>
     </div>
+</center>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
    <nav class="navbar navbar-light navbar-expand-md fixed-top bg-light float-right" style="height: 110px;background-color: #1ad6ef;">
-        <div class="container-fluid"><a class="navbar-brand text-center jm-logo" href="#" style="background-image: url(&quot;assets/img/logo7_29_185350.png&quot;);padding: 10px;margin: -70px;height: 245px;background-size: contain;background-repeat: no-repeat;background-position: center;width: 295px;font-size: 38px;"></a>
+        <div class="container-fluid"><a class="navbar-brand text-center jm-logo" href="index.html" style="background-image: url(&quot;assets/img/logo7_29_185350.png&quot;);padding: 10px;margin: -70px;height: 245px;background-size: contain;background-repeat: no-repeat;background-position: center;width: 295px;font-size: 38px;"></a>
             <button
                 data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse text-secondary" id="navcol-1">
@@ -113,8 +115,8 @@
 
     </nav>
     
-    <div class="footer-clean"  margin: 0px;">
-        <footer style="background-image: url(&quot;assets/img/dangg.png&quot;);background-repeat: no-repeat;background-size: cover;padding: 78px;height: 230px;margin: -1px;">
+      <div class="footer-clean" style="height: 282px;">
+       <footer style="background-image: url(&quot;assets/img/dangg.png&quot;);background-repeat: no-repeat;background-size: cover;padding: 78px;height: 230px;margin: -1px; width: 1400px;">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-sm-4 col-md-3 item">
