@@ -55,36 +55,15 @@
 <body>
 <!-- Default form subscription -->
 <center>
-<form class="text-center border border-light  col-sm-4 align-center" action="signup.php" method="post">
-
-   
 <br />
 <br />
 <br />
-    
-    <p>
-        <a href="" target="_blank"> Join us to See our newsletter</a>
-    </p>
-
-    <!-- Name -->
-    <input type="text" name="signname" class="form-control mb-4" placeholder="Name">
-
-    <!-- Email -->
-    <input type="email" name="signmail" class="form-control mb-4" placeholder="E-mail">
-
-    <!-- Sign in button -->
-    <button class="btn btn-info btn-block" type="submit" value="submit">Subscribe</button>
-
-
-</form>
-<!-- Default form subscription -->
+<br />
+<p> Thanks email already exits!</p>
+<p><a href="joinus.php">Try again</a><br />
+<a href="index.html">Go back to home</a></p>
 
 </center>
-
-
-
-
-
 
 
        <div class="footer-clean" style="height: 282px;">

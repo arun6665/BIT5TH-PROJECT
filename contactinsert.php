@@ -21,8 +21,9 @@ $phone=$_POST['phone'];
 $comments=$_POST['comments'];
 $sql = "INSERT INTO contactus (name,email,phone,comment) VALUES ('$name','$email','$phone','$comments')";
 if(mysqli_query($link, $sql)){
-    echo "<center>Thanks for contacting us,Our team will reach you shortly.<br /></center>";
-    echo "<center><a href='index.html'>Go back to home</a></center>";
+	  header('Location: contactcorrect.php');
+    //echo "<center>Thanks for contacting us,Our team will reach you shortly.<br /></center>";
+    //echo "<center><a href='index.html'>Go back to home</a></center>";
 
 } else{
    echo "<center><a href='contact.html'>try again</a></center>";

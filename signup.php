@@ -19,14 +19,16 @@ $name1 = $_POST['signname'];
 $email1=$_POST['signmail'];
 $sql = "INSERT INTO signup (name,email) VALUES ('$name1','$email1')";
 if(mysqli_query($link, $sql)){
-    echo "<center>thanks for subscribing.</center><br />";
-    echo "<center><a href='index.html'>Go back to home</a></center>";
+    //echo "<center>thanks for subscribing.</center><br />";
+    //echo "<center><a href='index.html'>Go back to home</a></center>";
+    header('Location: joincorrect.php');
 } else{
 
-	echo"<center>The email already exists</center>";
-  echo "<center><a href='joinus.php'>Try again</a></center><br />";
+header('Location: joinincorrect.php');
+	//echo"<center>The email already exists</center>";
+  //echo "<center><a href='joinus.php'>Try again</a></center><br />";
 
-  echo "<center><a href='index.html'>Go back to home</a></center";
+  //echo "<center><a href='index.html'>Go back to home</a></center";
 
 }
  
